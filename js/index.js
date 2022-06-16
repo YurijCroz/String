@@ -18,7 +18,7 @@ function camelCaseConverter1(string) {
 //console.log(camelCaseConverter1(str));
 //console.log(camelCaseConverter1(str1));
 
-//====1.1.2===>
+//====1.2===>
 function camelCaseConverter2(string) {
     let part1 = string.toLowerCase().split(' ').shift().split()
     //первое слово в нижнем регистре
@@ -31,30 +31,6 @@ function camelCaseConverter2(string) {
 //console.log(camelCaseConverter2(str));
 //console.log(camelCaseConverter2(str1));
 
-
-//====1.2===>
-/* 
-function camelCaseTransformer(string) {
-    let camelCaseStr = string.toLowerCase().split(' ');
-    for(let i=1; i<camelCaseStr.length; i++) {
-        console.log(camelCaseStr[i])
-        for(let j=0, l=0; j<camelCaseStr[i].length; j++){
-            console.log(j)
-            if (j==0) {
-                camelCaseStr[i][j] = camelCaseStr[i][j].toUpperCase();
-                l++
-            }
-        }
-    }
-    console.log(camelCaseStr);
-    return camelCaseStr;
-}
-camelCaseTransformer(str1);
- */
-/* 
-let test = ['hello', 'my', 'world']
-console.log(test[2][0])
- */
 /* 
 2 Написать функцию для проверки спама в переданной строке. Функция возвращает true, 
 если строка содержит спам. Спамом считать следующие 
@@ -110,8 +86,5 @@ function averageWordLength(string) {
     return averageWord;
 }
 //console.log(averageWordLength(searchInTheTrash(str2))); //отправил дополнительно на чистку от мусора=)
-
-
-//5 Самое длинное слово в предложении и его индекс
 
 
